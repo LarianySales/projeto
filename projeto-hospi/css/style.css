@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #5698CF;
+
+}
+
+
+.vetor1 {
+    display: flex;
+    align-items: center;
+}
+
+.vetor2 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    /* margin-right: 30px; */
+    margin-left: 69vw;
+
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #5698CF;
+    width: 1024px;
+    height: 86px;
+
+}
+
+
+main {
+    width: 1440px;
+    height: 100%;
+    top: 114px;
+    padding: 50px;
+
+    background: #fff;
+}
+
+.titulo h1 {
+    display: inline-block;
+    width: 351px;
+    height: 98px;
+    left: 48px;
+    top: 124px;
+
+    font-family: 'Hermeneus One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+
+    color: #005DAA;
+
+}
+
+.titulo p {
+    /* display: inline-block; */
+    width: 439px;
+    height: 114px;
+    left: 48px;
+
+
+    font-family: 'Hermeneus One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #005DAA;
+
+}
+
+.user {
+    float: right;
+    margin-left: 50px;
+    margin-right: 37.22%;
+    top: 14.84%;
+    bottom: 53.12%;
+
+}
+
+
+.select {
+    width: 316px;
+    height: 34px;
+    left: 46px;
+    top: 316px;
+
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #000000;
+}
+
+select {
+    width: 427px;
+    height: 64px;
+    left: 46px;
+    top: 342px;
+
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #000000;
+
+    background: #D6D6D6;
+    border-radius: 20px;
+}
+
+.grau p {
+    display: inline-block;
+    width: 357px;
+    height: 14px;
+    left: 46px;
+    margin-top: 62px;
+
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #000000;
+}
+
+.grau input {
+    display: inline-block;
+    width: 427px;
+    height: 64px;
+    left: 46px;
+    top: 462px;
+
+    background: #D6D6D6;
+    border-radius: 20px;
+}
+
+.ambulancia {
+    width: 357px;
+    height: 134px;
+    left: 81px;
+    margin-top: 48px;
+
+
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.ambulancia p {
+    width: 357px;
+    height: 34px;
+    left: 81px;
+    margin-top: 48px;
+
+
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.alergia {
+    width: 357px;
+    height: 94px;
+    left: 81px;
+    top: 655px;
+
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.especifico p {
+    width: 357px;
+    height: 34px;
+    left: 60px;
+    top: 762px;
+
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.especifico input {
+
+    width: 427px;
+    height: 64px;
+    left: 46px;
+    top: 796px;
+
+    background: #D6D6D6;
+    border-radius: 20px;
+}
+
+.sintoma p {
+    float: right;
+
+    width: 357px;
+    height: 34px;
+    margin-right: 470px;
+    margin-top: 85px;
+
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.sintoma input {
+    float: right;
+    /* display: inline-block; */
+
+    width: 427px;
+    height: 331px;
+    margin-right: 69vh;
+    /* margin-left: 226px; */
+    margin-top: 9px;
+
+    background: #D6D6D6;
+    border-radius: 20px;
+}
+
+.box2 h1 {
+align-self: start;
+    width: 584px;
+    height: 144px;
+    margin-right: 56vh;
+    margin-left: 1024px;
+   
+
+
+    font-family: 'Hermeneus One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+
+    color: #005DAA;
+
+}
