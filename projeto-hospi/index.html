@@ -10,6 +10,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inder&family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <title>informação</title>
 </head>
@@ -32,8 +35,7 @@
 
     <main>
 
-       
-        <div class="titulo" >
+        <article class="titulo" >
            
             <img class="user" src="./img/🦆 icon _profile circle_.png" alt="">
         
@@ -44,13 +46,14 @@
 
             <h1>Bem-vindo</h1>
             <p>Aqui você é atendido com classificação de Risco.</p>
-        </div>
+        </article>
 
+     
         <section class="box1">
             <p  class="select">Selecione o nível de gravidade:</p>
             <form class="d-flex gap-2">
                
-                <select id="grau">
+                <select id="urgencias">
                     <option></option>
                     <option>Emergência</option>
                     <option>Muito Urgente</option>
@@ -62,21 +65,21 @@
 
             <article class="grau">
                 <p>Qual a sua escala de dor de 0 a 10?</p>
-                <input type="number">
+                <input id="grau" type="number">
             </article>
 
             <article class="ambulancia">
                 <p> Precisa de uma ambulância? </p>
-                <input type="radio" name="opcao" id="sim">Sim
-                <input type="radio" name="opcao" id="nao">Não
+                <input  type="radio" name="opcao" id="sim">Sim
+                <input  type="radio" name="opcao" id="nao">Não
 
             </article>
 
             <article class="alergia">
                 <p>Tem Alergias?</p>
-                <input type="radio" name="opcao" id="tem">Sim
+                <input type="radio" name="selecao" id="tem">Sim
 
-                <input type="radio" name="opcao" id="nTem">Não
+                <input type="radio" name="selecao" id="nTem">Não
             </article>
             <article class="especifico">
                 <p>Quais?</p>
@@ -84,10 +87,48 @@
             </article>
         </section>
 
-        <section class="box2 d-flex">
-          <h1>Níveis de gravidade:</h1>
+        <section class="box2">
+            <h1 class="niveis">Níveis de gravidade:</h1>
+
+            <article class="lista">
+        
+                <ol class="classificacao">
+    
+                    <il class="emergencia">
+                      
+                         <h1></h1> <h2>Emergência</h2>
+                        <p>Caso gravíssimo, com necessidade de atendimento imediato.</p>
+                    </il>
+                    <il class="muitoU">
+                        <h1></h1>
+                        <h2>Muito urgente</h2>
+                        <p>Caso grave, com necessidade de atendimento urgente.</p>
+                    </il>
+                    <il class="urgente">
+                        <h1></h1>
+                        <h2>Urgente</h2>
+                        <p>Caso de gravidade moderada. Necessita de atendimento rápido, mas pode aguardar.</p>
+                    </il>
+                    <il class="poucoU">
+                        <h1></h1>
+                        <h2>Pouco Urgente</h2>
+                        <p>Baixo risco de agravamento da saúde. Pode aguardar atendimento.</p>
+                    </il>
+                    <il class="naoU">
+                        <h1></h1>
+                        <h2>Não Urgente</h2>
+                        <p>Sem risco de agravamento da saúde. Pode aguardar atendimento ou ser encaminhado para à Unidade Básica de Saúde.</p>
+                    </il>
+                  </ol>
+            
+                
+                   
         </section>
+        <button class="continuar" id="button">
+            Continuar
+        </button>
     </main>
+    <script src="./script.js"></script>
 </body>
 
 </html>
